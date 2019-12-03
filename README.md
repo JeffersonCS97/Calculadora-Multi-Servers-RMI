@@ -1,0 +1,5 @@
+## Descrição ##
+Um servidor principal para receber via socket a operação que deseja executar e dois parâmentos que são os valores da operação, e chama um dos 2 servidores escravos via RMI para realizar a operação de acordo com o valor escolhido. Os servidores escravos são Operações que resolve as operações básicas (soma, subtração, multiplicação e divisão) e o OperaçõesAvançadas, que resolve as operações de Raiz quadrada, porcentagem e potenciação. Tem o servidor cliente, onde é escolhida a operação que será executada e informado os parâmetros para a resolução. Tem duas variáveis chamada "primeiro" e "segundo" que guarda os valores dos parâmetros para realizar uma operação. Uma variável "operaçãoSelecionada" que guarda o nome da operação a ser realizada, e "operaçãoSelecionadaNumero" que guarda o valor numérico correspondente ao servidor da operação.
+
+### Alunos ###
+Renan Mateus, Jefferson Coelho, Ismayllen Gonçalves
